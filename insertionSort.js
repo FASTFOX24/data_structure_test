@@ -16,4 +16,4 @@ function insertionSort () {
  return A;
 }
 
-console.log(insertionSort());
+export { insertionSort };
