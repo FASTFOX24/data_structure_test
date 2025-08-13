@@ -2,12 +2,12 @@ import { describe, it, expect } from 'vitest';
 import { insertionSort } from './insertionSort.js';
 
 describe('insertionSort', () => {
-  it('should sort an array in ascending order', () => {
+  it('배열 오름차순 정렬', () => {
     const result = insertionSort();
     expect(result).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9]);
   });
 
-  it('should return an array with the same length as input', () => {
+  it('입력 배열의 길이와 동일한 길이의 배열을 반환', () => {
     const result = insertionSort();
     expect(result).toHaveLength(9);
   });
